@@ -1,0 +1,245 @@
+body img {
+    width: 400px;
+    height: 180px;
+    background-color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+
+}
+
+header{
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+    
+nav ul li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    color: aquamarine;
+}
+main{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+main h2{
+    color: #34495e;
+    font-size: 2em;
+    margin-top: 0;
+}
+main p{
+    font-size: 1.2em;
+}
+footer{
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 4px 0; 
+    bottom: 0;
+     position: fixed;
+    width: 100%;
+}
+table{
+    width:100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+ th,td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+ }
+
+ th{
+    background-color: #333;
+    color: white;
+ }
+ tr:hover{
+background-color: #f1f1f1;
+ }
+
+.review-link{
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.review-link:hover{
+    background-color: #555;
+}
+
+.product-img{
+    width: 100px;
+}
+
+/*tutoriales.html*/
+.video-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px black;
+    border-radius: 10px;
+    text-align: center;
+    color: #020a11;
+
+}
+
+.video-container video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0,7);
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+ }
+
+ input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+ }
+
+ input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+
+ }
+
+ input[type="submit"]:hover{
+    background-color: #45a049;
+ }
+
+ .contenedor{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /*Separación entre las columnas*/
+ }
+
+.columna{
+    flex: 1; /*hacer que cada columna ocupe el mismo espacio*/
+}
+
+iframe{
+    width: 100%;
+    height: 800px;
+    border: 0;
+}
+
+.boton-flotante{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px #ccc;
+    z-index: 100;
+
+}
+
+.boton-flotante img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 1px 4px 8px blue;
+}
+.card h2{
+    margin: 0 0 10 px;
+    color: #444;
+}
+
+.card p{
+    color: #666;
+}
+
+.card ul{
+    list-style: none;
+    padding: 0;
+    color: #666;
+}
+
+button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #218838;
+    
+}
+
+.pdf{
+    width: 100%;
+    height: 800px;
+    border: 0;
+}
